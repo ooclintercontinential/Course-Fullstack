@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-git.css">
+    <title>Tài liệu Git</title>
+</head>
+
+<body>
+
+    <!-- Tiêu đề -->
+    <h1>GIT LÀ GÌ? CÁC LỆNH CƠ BẢN CỦA GIT</h1>
+
+    <h2>Các lệnh git cơ bản</h2>
+
+    <ol class="menu">
+        <li class="block">
+            <strong>git config</strong>
+            <p><b>Tác dụng: </b>Để set user name và email của bạn trong main configaration file.</p>
+            <p><b>Cách dùng: </b>Để kiểm tra tên và kiểu email trong cấu hình dùng </p>
+            <code>git config--global user.name</code>
+            <code>git config--global user.email</code>
+            <p>Để set email hoặc tên mới</p>
+            <code>git config --global user.name ="Hải Nguyễn"</code>
+            <code>git config--global user.email="hainguyen@gmail.com"</code>
+            <br>
+        </li>
+        <li>
+            <strong>git init</strong>
+            <p><b>Tác dụng: </b>Khởi tạo 1 git repository 1 project mới hoặc đã có.</p>
+            <p><b>Cách dùng: </b><code>git init</code> trong thư mục gốc của dự án.</p>
+        </li>
+        <li>
+            <strong>git clone</strong>
+            <p><b>Tác dụng: </b>Copy 1 git repository từ remote source.</p>
+            <p><b>Cách dùng: </b><code>git clone <:clone git url:></code>
+            </p>
+        </li>
+        <li>
+            <strong>git status</strong>
+            <p><b>Tác dụng: </b>Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc. Ví dụ: Tất cả
+                các thay đổi cuối
+                cùng từ lần commit cuối cùng.</p>
+            <p><b>Cách dùng: </b><code>git status</code> trong thư mục làm việc.</p>
+        </li>
+        <li>
+            <strong>git add</strong>
+            <p><b>Tác dụng: </b>Thêm thay đổi đến stage/index trong thư mục làm việc.</p>
+            <p><b>Cách dùng: </b><code>git add</code></p>
+        </li>
+        <li>
+            <strong>git commit</strong>
+            <p><b>Tác dụng: </b>commit nghĩa là một action để Git lưu lại một snapshot của các sự thay đổi trong thư mục
+                làm việc. Và các
+                tập tin, thư mục được thay đổi đã phải nằm trong Staging Area. Mỗi lần commit nó sẽ được lưu lại lịch sử
+                chỉnh sửa
+                của code kèm theo tên và địa chỉ email của người commit. Ngoài ra trong Git bạn cũng có thể khôi phục
+                lại tập tin
+                trong lịch sử commit của nó để chia cho một branch khác, vì vậy bạn sẽ dễ dàng khôi phục lại các thay
+                đổi trước đó.</p>
+            <p><b>Cách dùng:
+                </b><code>git commit -m "Đây là massage, bạn dùng để note những thay đổi để sau này dễ dò lại"</code>
+            </p>
+        </li>
+        <li>
+            <strong>git push/ git pull</strong>
+            <p><b>Tác dụng: </b>Push hoặc Pull các thay đổi đến remote. Nếu bạn đã added và commit các thay đổi và bạn
+                muốn đẩy nó lên
+                hoặc remote của bạn đã update và bạn apply tất cả các thay đổi đó trên code của mình.</p>
+            <p><b>Cách dùng:
+                </b><code></code>
+            </p>
+        </li>
+        <li>
+            <strong>git remote</strong>
+            <p><b>Tác dụng: </b>Để check remote/source bạn có hoặc add thêm remote Cách dùng: git remote để kiểm tra và
+                liệt
+                kê. Và git remote add <:remote_url:> để thêm.</p>
+            <p><b>Cách dùng: </b><code></code>
+            </p>
+        </li>
+        <li>
+            <strong>git add</strong>
+            <p><b>Tác dụng: </b>Để đưa một tập tin vào Staging Area.</p>
+            <p><b>Cách dùng: </b><code>git add</code> tên_file hoặc muốn thêm hêt file của thư mục thì
+                <code>git add all</code>
+            </p>
+        </li>
+    </ol>
+
+</body>
+
+</html>

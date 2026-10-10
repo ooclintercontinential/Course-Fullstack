@@ -1,0 +1,27 @@
+.container {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #777;
+    padding: 10px;
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    text-align: left !important;
+}
+
+.score {
+    text-align: right !important;
+}

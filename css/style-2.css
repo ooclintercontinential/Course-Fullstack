@@ -1,0 +1,42 @@
+.container {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+.table th,
+.table td {
+    border: 1px solid #777;
+    padding: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    background: white;
+}
+
+.header {
+    background: yellow;
+}
+
+.td {
+    font-weight: normal;
+}
+
+.name {
+    font-weight: bold;
+    text-align: left !important;
+}
+
+.footer {
+    background: yellow;
+    font-weight: bold;
+}

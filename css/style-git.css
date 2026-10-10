@@ -1,0 +1,10 @@
+.menu .block code {
+    display: inline-block;
+    margin: 3px 0;
+    line-height: 1.4;
+}
+
+.menu code {
+    background: yellow;
+    display: inline;
+}
